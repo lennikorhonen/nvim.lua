@@ -68,7 +68,7 @@ end
 local servers = {
   -- clangd = {},
   -- gopls = {},
-  -- pyright = {},
+  pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
@@ -106,6 +106,7 @@ local servers = {
     cmd = { "/home/lenni/.local/share/nvim/mason/bin/elixir-ls" },
     root_dir = require("lspconfig.util").root_pattern { "mix.exs" },
   },
+  ocamllsp = {},
 }
 
 -- Setup neovim lua configuration

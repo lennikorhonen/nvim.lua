@@ -135,6 +135,12 @@ require('lazy').setup({
   },
 
   {
+    'rose-pine/neovim',
+    name = 'rose-pine',
+    priority = 1000,
+  },
+
+  {
     'tjdevries/colorbuddy.nvim'
   },
 
